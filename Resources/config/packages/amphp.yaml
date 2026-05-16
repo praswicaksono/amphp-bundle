@@ -1,0 +1,38 @@
+amphp:
+    # Host and port to bind the HTTP server
+    host: '127.0.0.1'
+    port: 8080
+
+    # Performance tuning
+    workers: 0                  # 0 = auto-detect (CPU core count). Override via --workers
+    max_requests: 1000          # Requests per worker before graceful restart (0 = unlimited). Override via --max-requests
+    shutdown_timeout: 5         # Seconds to drain active requests before force stop
+
+    # Request limits
+    request_timeout: 30         # Total request timeout in seconds (0 = disabled)
+    header_timeout: 10          # Time to wait for headers in seconds
+    body_timeout: 30            # Time to wait for body in seconds
+    max_body_size: 10485760     # Max request body size in bytes (10 MB)
+
+    # TLS/SSL
+    tls:
+        enabled: false
+        cert_file: null
+        key_file: null
+        passphrase: null
+        min_version: 'TLSv1.2'
+
+    # Static file serving
+    static_files:
+        enabled: true
+        public_dir: '%kernel.project_dir%/public'
+        indexes: ['index.html']
+        expires_period: 0
+
+    # WebSocket
+    websocket:
+        enabled: false
+
+    # Readiness check (health probe endpoint)
+    readiness:
+        enabled: false
