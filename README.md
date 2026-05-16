@@ -22,10 +22,10 @@ non-blocking and fiber-based. No more PHP-FPM process overhead.
 ### 1. Install
 
 ```bash
-composer require app/amphp-bundle "@dev"
+composer require prsw/amphp-bundle "@dev"
 ```
 
-Register the bundle in `config/bundles.php`:
+Register the bundle if you are not using symfony flex in `config/bundles.php`:
 
 ```php
 return [

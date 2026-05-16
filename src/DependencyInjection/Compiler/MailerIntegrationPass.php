@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace PRSW\AmphpBundle\DependencyInjection\Compiler;
 
+use Amp\Http\Client\DelegateHttpClient;
 use PRSW\AmphpBundle\Bridge\Symfony\Mailer\AsyncEsmtpTransportFactory;
 use Symfony\Component\DependencyInjection\Argument\AbstractArgument;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
@@ -30,13 +31,12 @@ final class MailerIntegrationPass implements CompilerPassInterface
 
     private function configureHttpClient(ContainerBuilder $container): void
     {
-        if (!class_exists(AmpHttpClient::class)) {
+        if (!\interface_exists(DelegateHttpClient::class)) {
             return;
         }
 
-        if (!\interface_exists(\Amp\Http\Client\DelegateHttpClient::class)) {
-            throw new \RuntimeException('Symfony\'s AmpHttpClient requires "amphp/http-client". '
-            . 'Run: composer require amphp/http-client');
+        if (!\class_exists(AmpHttpClient::class)) {
+            return;
         }
 
         if (!$container->hasDefinition('http_client.transport')) {

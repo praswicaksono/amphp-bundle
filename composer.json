@@ -32,6 +32,7 @@
         "Resources/cluster/cluster-worker.php"
     ],
     "suggest": {
+        "amphp/http-client": "Enables non-blocking HTTP client for Symfony Mailer (replaces CurlHttpClient)",
         "amphp/mysql": "Enables async MySQL database driver for Doctrine DBAL",
         "amphp/postgres": "Enables async PostgreSQL database driver for Doctrine DBAL",
         "amphp/redis": "Enable async Redis driver for cache and session handler"

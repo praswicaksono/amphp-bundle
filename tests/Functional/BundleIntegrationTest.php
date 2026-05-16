@@ -14,7 +14,6 @@ use PRSW\AmphpBundle\Runtime\Server\HandlerChainFactory;
 use PRSW\AmphpBundle\Runtime\Server\ServerConfig;
 
 use function Amp\async;
-use function Amp\delay;
 
 class BundleIntegrationTest extends TestCase
 {
@@ -113,7 +112,7 @@ class BundleIntegrationTest extends TestCase
             return [$response->getStatus(), $response->getReason(), $response->getBody()->buffer()];
         });
 
-        [$status, $reason, $body] = $future->await();
+        [$status, $reason] = $future->await();
 
         self::assertSame(200, $status);
         self::assertSame('OK', $reason);
@@ -131,7 +130,7 @@ class BundleIntegrationTest extends TestCase
             return [$response->getStatus(), $response->getReason()];
         });
 
-        [$status, $reason] = $future->await();
+        [$status] = $future->await();
 
         self::assertSame(404, $status);
     }
