@@ -34,29 +34,45 @@ final class LogIntegrationPass implements CompilerPassInterface
         // LoggerFactory can fall back to it for regular CLI commands
         // (e.g. bin/console) where the AMPHP stream handler should not
         // replace Symfony's standard console/file logging.
-        if ($container->hasDefinition('logger')) {
-            $def = $container->getDefinition('logger');
-
-            // Save the original logger definition for CLI fallback
-            $originalDef = clone $def;
-            $container->setDefinition('logger.symfony', $originalDef);
-
-            $def->setFactory([LoggerFactory::class, 'create']);
-            $def->setArguments(['app', 'php://stdout', new Reference('logger.symfony')]);
-            $def->setClass(\Monolog\Logger::class);
-            $def->setPublic(true);
-
-            // Push the PsrLogMessageProcessor (logger-level, applies to all handlers)
-            $def->addMethodCall('pushProcessor', [new Reference(PsrLogMessageProcessor::class)]);
-
-            // Register PsrLogMessageProcessor as a service if not already
-            if (!$container->has(PsrLogMessageProcessor::class)) {
-                $container->register(PsrLogMessageProcessor::class, PsrLogMessageProcessor::class)->setPublic(false);
-            }
-
-            // Push the DebugLogger processor so the profiler can collect logs.
-            // This must be the LAST processor so it sees the final processed record.
-            $def->addMethodCall('pushProcessor', [new Reference(DebugLogger::class)]);
+        //
+        // MonologBundle registers 'logger' as a private alias for
+        // 'monolog.logger'. We must handle both cases: direct definition
+        // and alias.
+        if (!$container->has('logger')) {
+            return;
         }
+
+        // Resolve alias -> actual service ID, save original definition
+        if ($container->hasAlias('logger')) {
+            $alias = $container->getAlias('logger');
+            $originalId = (string) $alias;
+            $container->removeAlias('logger');
+
+            if ($container->hasDefinition($originalId)) {
+                $originalDef = clone $container->getDefinition($originalId);
+                $container->setDefinition('logger.symfony', $originalDef);
+            }
+        } else {
+            $originalDef = clone $container->getDefinition('logger');
+            $container->setDefinition('logger.symfony', $originalDef);
+        }
+
+        // Register a new public definition for 'logger'
+        $def = $container->register('logger', \Monolog\Logger::class);
+        $def->setFactory([LoggerFactory::class, 'create']);
+        $def->setArguments(['app', 'php://stdout', new Reference('logger.symfony')]);
+        $def->setPublic(true);
+
+        // Push the PsrLogMessageProcessor (logger-level, applies to all handlers)
+        $def->addMethodCall('pushProcessor', [new Reference(PsrLogMessageProcessor::class)]);
+
+        // Register PsrLogMessageProcessor as a service if not already
+        if (!$container->has(PsrLogMessageProcessor::class)) {
+            $container->register(PsrLogMessageProcessor::class, PsrLogMessageProcessor::class)->setPublic(false);
+        }
+
+        // Push the DebugLogger processor so the profiler can collect logs.
+        // This must be the LAST processor so it sees the final processed record.
+        $def->addMethodCall('pushProcessor', [new Reference(DebugLogger::class)]);
     }
 }
