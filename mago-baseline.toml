@@ -1,0 +1,2131 @@
+variant = "loose"
+
+[[issues]]
+file = "AmphpBundle.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\AmphpBundle` cannot extend unknown type `AbstractBundle`'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Doctrine\Dbal\Driver\AsyncConnection` cannot extend unknown type `DbalConnection`'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "unused-method"
+message = "Method `connect()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "unused-method"
+message = "Method `getfiberlocal()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "unused-method"
+message = "Method `getorcreateconnection()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "unused-property"
+message = "Property `$baseConnection` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "unused-property"
+message = "Property `$databasePlatformCached` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "unused-property"
+message = "Property `$fiberLocal` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncMysqlDriver.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Doctrine\Dbal\Driver\AsyncMysqlDriver` cannot extend unknown type `AbstractMySQLDriver`'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncMysqlDriver.php"
+code = "unused-method"
+message = "Method `init()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncMysqlDriver.php"
+code = "unused-property"
+message = "Property `$init` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncMysqlDriver.php"
+code = "unused-property"
+message = "Property `$pop` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncMysqlDriver.php"
+code = "unused-property"
+message = "Property `$push` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncMysqlDriver.php"
+code = "unused-property"
+message = "Property `$releaseCallback` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncPostgresDriver.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Doctrine\Dbal\Driver\AsyncPostgresDriver` cannot extend unknown type `AbstractPostgreSQLDriver`'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncPostgresDriver.php"
+code = "unused-method"
+message = "Method `init()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncPostgresDriver.php"
+code = "unused-property"
+message = "Property `$init` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncPostgresDriver.php"
+code = "unused-property"
+message = "Property `$pop` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncPostgresDriver.php"
+code = "unused-property"
+message = "Property `$push` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncPostgresDriver.php"
+code = "unused-property"
+message = "Property `$releaseCallback` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Connection.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Doctrine\Dbal\Driver\Connection` cannot implement unknown type `DriverConnection`'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Connection.php"
+code = "unused-property"
+message = "Property `$connection` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Exception.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Doctrine\Dbal\Driver\Exception` cannot extend unknown type `AbstractException`'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Result.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Doctrine\Dbal\Driver\Result` cannot implement unknown type `ResultInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Result.php"
+code = "unused-property"
+message = "Property `$columnNames` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Result.php"
+code = "unused-property"
+message = "Property `$firstRowCache` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Result.php"
+code = "unused-property"
+message = "Property `$result` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Statement.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Doctrine\Dbal\Driver\Statement` cannot implement unknown type `StatementInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Statement.php"
+code = "unused-property"
+message = "Property `$parameters` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Statement.php"
+code = "unused-property"
+message = "Property `$statement` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Doctrine\DBAL\Connection)`).'
+count = 4
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Doctrine\Persistence\ManagerRegistry)`).'
+count = 5
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Psr\Log\LoggerInterface)`).'
+count = 4
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Symfony\Component\DependencyInjection\ContainerInterface)`).'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Bridge\Doctrine\ORM\EntityManagerResetListener::pingConnection`: expected `unknown-ref(Doctrine\DBAL\Connection)`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #2 of `App\AmphpBundle\Bridge\Doctrine\ORM\EntityManagerResetListener::pingConnection`: expected `string`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 8
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 6
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Doctrine\DBAL\Connection`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Doctrine\Persistence\ManagerRegistry`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Psr\Log\LoggerInterface`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\DependencyInjection\ContainerInterface`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "non-existent-method"
+message = 'Method `clear` does not exist on type `Revolt\EventLoop\FiberLocal`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "possible-method-access-on-null"
+message = "Attempting to call a method on `null`."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "unknown-iterator-type"
+message = "Cannot determine the type of the expression provided to `foreach`."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Cache\AsyncFilesystemAdapter` cannot extend unknown type `AbstractAdapter`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Cache\AsyncFilesystemAdapter` cannot implement unknown type `PruneableInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-method"
+message = "Method `doclear()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-method"
+message = "Method `dodelete()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-method"
+message = "Method `dofetch()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-method"
+message = "Method `dohave()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-method"
+message = "Method `dosave()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-method"
+message = "Method `getfile()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-method"
+message = "Method `getfilekey()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-method"
+message = "Method `scanhashdir()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-property"
+message = "Property `$directory` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "unused-property"
+message = "Property `$marshaller` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Cache\AsyncRedisAdapter` cannot extend unknown type `AbstractAdapter`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "unused-method"
+message = "Method `doclear()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "unused-method"
+message = "Method `dodelete()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "unused-method"
+message = "Method `dofetch()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "unused-method"
+message = "Method `dohave()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "unused-method"
+message = "Method `dosave()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "unused-property"
+message = "Property `$marshaller` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "unused-property"
+message = "Property `$redis` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Filesystem\Filesystem` cannot extend unknown type `SymfonyFilesystem`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "unused-method"
+message = "Method `doremove()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "unused-method"
+message = "Method `mirrorrecursive()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "unused-method"
+message = "Method `removeobsoleteinmirror()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "unused-method"
+message = "Method `toiterable()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/HttpFoundation/File/AsyncUploadedFile.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\HttpFoundation\File\AsyncUploadedFile` cannot extend unknown type `UploadedFile`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/HttpFoundation/File/AsyncUploadedFile.php"
+code = "unused-method"
+message = "Method `createexceptionforerror()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/HttpFoundation/File/AsyncUploadedFile.php"
+code = "unused-property"
+message = "Property `$content` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/HttpFoundation/StreamedResponse.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\HttpFoundation\StreamedResponse` cannot extend unknown type `Response`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/HttpFoundation/StreamedResponse.php"
+code = "unused-property"
+message = "Property `$generatorFactory` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/DebugLogger.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Log\DebugLogger` cannot implement unknown type `DebugLoggerInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/DebugLogger.php"
+code = "unused-property"
+message = "Property `$errorCount` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/DebugLogger.php"
+code = "unused-property"
+message = "Property `$logs` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/DebugLogger.php"
+code = "unused-property"
+message = "Property `$requestStack` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "impossible-assignment"
+message = "Invalid assignment: the right-hand side has type `never` and cannot produce a value."
+count = 6
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "mixed-return-statement"
+message = 'Could not infer a precise return type for function `App\AmphpBundle\Bridge\Symfony\Log\LoggerFactory::resolveStream`. Saw type `mixed`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "never-return"
+message = "Cannot return value with type 'never' from this function."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-class"
+message = 'Class `Amp\Log\ConsoleFormatter` not found.'
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-class"
+message = 'Class `Amp\Log\StreamHandler` not found.'
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-class"
+message = 'Class `Monolog\Logger` not found.'
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Amp\ByteStream\WritableStream`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Psr\Log\LoggerInterface`.'
+count = 4
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-class-like"
+message = 'Class, interface, enum, or trait `Monolog\Level` not found.'
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-function"
+message = 'Function `Amp\ByteStream\getStderr` could not be found.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-function"
+message = 'Function `Amp\ByteStream\getStdout` could not be found.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-method"
+message = 'Method `createLogHandler` does not exist on type `Amp\Cluster\Cluster`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "non-existent-method"
+message = 'Method `isWorker` does not exist on type `Amp\Cluster\Cluster`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "possibly-false-operand"
+message = "Possibly false right operand used in string concatenation (type `false|int`)."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/LoggerFactory.php"
+code = "redundant-null-coalesce"
+message = "Redundant null coalesce: left-hand side can never be `null` or undefined."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Mailer\AmpSocketStream` cannot extend unknown type `AbstractStream`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-method"
+message = "Method `buildtlscontext()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-method"
+message = "Method `getreadconnectiondescription()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-property"
+message = "Property `$debug` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-property"
+message = "Property `$host` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-property"
+message = "Property `$port` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-property"
+message = "Property `$reader` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-property"
+message = "Property `$socket` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-property"
+message = "Property `$sourceIp` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-property"
+message = "Property `$streamContextOptions` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-property"
+message = "Property `$timeout` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "unused-property"
+message = "Property `$tls` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AsyncEsmtpTransportFactory.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Mailer\AsyncEsmtpTransportFactory` cannot extend unknown type `AbstractTransportFactory`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AsyncEsmtpTransportFactory.php"
+code = "unused-method"
+message = "Method `getsupportedschemes()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/AmpClock.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Messenger\AmpClock` cannot implement unknown type `ClockInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/AmpClock.php"
+code = "unused-property"
+message = "Property `$inner` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "invalid-destructuring-source"
+message = "Invalid destructuring assignment: Cannot unpack type `truthy-mixed` into variables."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "invalid-iterator"
+message = "The expression provided to `foreach` is not iterable. It resolved to type `nonnull`, which is not iterable."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Amp\Redis\RedisClient)`).'
+count = 14
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "invalid-operand"
+message = "Invalid type for left operand."
+count = 5
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "invalid-operand"
+message = "Invalid type for right operand."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "invalid-property-assignment-value"
+message = 'Invalid type for property `$redis`: expected `unknown-ref(Amp\Redis\RedisClient)`, but got `Amp\Redis\RedisClient`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisConnection::__construct`: expected `object`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisConnection::add`: expected `string`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisConnection::flattenFields`: expected `array<array-key, mixed>`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = "Invalid argument type for argument #1 of `array_key_first`: expected `array<('K.array_key_first() extends array-key), mixed>`, but found `truthy-mixed`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = "Invalid argument type for argument #1 of `json_decode`: expected `string`, but found `mixed`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = "Invalid argument type for argument #1 of `str_pad`: expected `string`, but found `mixed`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = "Invalid argument type for argument #1 of `strlen`: expected `string`, but found `mixed`."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #2 of `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisConnection::add`: expected `array<array-key, mixed>`, but found `nonnull`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = "Invalid argument type for argument #2 of `array_key_exists`: expected `array<array-key, mixed>`, but found `mixed`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = "Invalid argument type for argument #5 of `sprintf`: expected `Stringable|null|scalar`, but found `nonnull`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-argument"
+message = "Invalid argument type for argument #6 of `sprintf`: expected `Stringable|null|scalar`, but found `nonnull`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-array-access"
+message = "Unsafe array access on type `mixed`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-array-access"
+message = "Unsafe array access on type `truthy-mixed`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 29
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-assignment"
+message = "Assigning `nonnull` type to a variable may lead to unexpected behavior."
+count = 6
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-operand"
+message = "Cannot reliably decrement a `mixed` operand."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-operand"
+message = "Invalid left operand: type `mixed` cannot be reliably used in string concatenation."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-operand"
+message = "Invalid right operand: type `nonnull` cannot be reliably used in string concatenation."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-operand"
+message = "Left operand in `>` comparison has `mixed` type."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-operand"
+message = "Right operand in `&&` operation has `mixed` type."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "mixed-return-statement"
+message = 'Could not infer a precise return type for function `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisConnection::add`. Saw type `mixed`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "non-existent-class"
+message = 'Class `Symfony\Component\Messenger\Exception\InvalidArgumentException` not found.'
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "non-existent-class"
+message = 'Class `Symfony\Component\Messenger\Exception\TransportException` not found.'
+count = 16
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Amp\Redis\RedisClient`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "non-existent-class-like"
+message = 'Class, Interface, or Trait `Amp\Redis\RedisClient` does not exist.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "non-existent-class-like"
+message = 'Class, interface, enum, or trait `Amp\Redis\RedisClient` not found.'
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "non-existent-function"
+message = 'Function `Amp\Redis\createRedisClient` could not be found.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "property-type-coercion"
+message = "A value of a less specific type `array<array-key, true>` is being assigned to property `$$inflightIds` (array<string, true>)."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "redundant-null-coalesce"
+message = "Redundant null coalesce: left-hand side can never be `null` or undefined."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "reference-to-undefined-variable"
+message = "Reference created from a previously undefined variable `$query`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisTransport` cannot implement unknown type `KeepaliveReceiverInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisTransport` cannot implement unknown type `MessageCountAwareInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisTransport` cannot implement unknown type `SetupableTransportInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisTransport` cannot implement unknown type `TransportInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "unused-method"
+message = "Method `findredisreceivedstamp()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "unused-property"
+message = "Property `$connection` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "unused-property"
+message = "Property `$serializer` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransportFactory.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Messenger\Redis\AmpRedisTransportFactory` cannot implement unknown type `TransportFactoryInterface`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Profiler\AsyncProfilerStorage` cannot extend unknown type `FileProfilerStorage`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "unused-method"
+message = "Method `asyncappendtoindex()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "unused-method"
+message = "Method `asyncremoveexpiredprofiles()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "unused-method"
+message = "Method `escapecsv()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Session\AmpFileSessionHandler` cannot extend unknown type `AbstractSessionHandler`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "unused-method"
+message = "Method `dodestroy()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "unused-method"
+message = "Method `doread()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "unused-method"
+message = "Method `dowrite()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "unused-method"
+message = "Method `getsessionfilepath()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "unused-property"
+message = "Property `$savePath` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Symfony\Session\AmpRedisSessionHandler` cannot extend unknown type `AbstractSessionHandler`'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-method"
+message = "Method `acquirelock()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-method"
+message = "Method `dodestroy()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-method"
+message = "Method `doread()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-method"
+message = "Method `dowrite()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-method"
+message = "Method `releaselock()` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-property"
+message = "Property `$lockKey` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-property"
+message = "Property `$lockToken` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-property"
+message = "Property `$prefix` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-property"
+message = "Property `$redis` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "unused-property"
+message = "Property `$ttl` is never used."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Amp\Socket\Socket)`).'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Symfony\Component\VarDumper\Dumper\ContextProvider\ContextProviderInterface)`).'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "mixed-property-type-coercion"
+message = 'A value with a less specific type `mixed` is being assigned to property `$$socket` (null|unknown-ref(Amp\Socket\Socket)).'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "non-existent-class"
+message = 'Class `Amp\Socket\ConnectContext` not found.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Amp\Socket\Socket`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\VarDumper\Cloner\Data`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\VarDumper\Dumper\ContextProvider\ContextProviderInterface`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "non-existent-function"
+message = 'Could not find definition for function `Amp\Socket\socketConnector` (also tried as `socketConnector` in a broader scope).'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpDumpServerConnection.php"
+code = "possible-method-access-on-null"
+message = "Attempting to call a method on `null`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "impossible-assignment"
+message = "Invalid assignment: the right-hand side has type `never` and cannot produce a value."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Symfony\Component\VarDumper\Cloner\ClonerInterface)`).'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Bridge\Symfony\VarDumper\AmpDumpServerConnection::write`: expected `unknown-ref(Symfony\Component\VarDumper\Cloner\Data)`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "mixed-return-statement"
+message = "Could not infer a precise return type for function `13493668806100636049:786`. Saw type `mixed`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "non-existent-class"
+message = 'Class `Symfony\Component\VarDumper\Cloner\VarCloner` not found.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "non-existent-class"
+message = 'Class `Symfony\Component\VarDumper\Dumper\CliDumper` not found.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "non-existent-class"
+message = 'Class `Symfony\Component\VarDumper\Dumper\HtmlDumper` not found.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\VarDumper\Cloner\ClonerInterface`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\VarDumper\Dumper\DataDumperInterface`.'
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/VarDumper/AmpVarDumperHandler.php"
+code = "non-existent-method"
+message = 'Method `setHandler` does not exist on type `Symfony\Component\VarDumper\VarDumper`.'
+count = 3
+
+[[issues]]
+file = "Bridge/Twig/Loader/FilesystemLoader.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Bridge\Twig\Loader\FilesystemLoader` cannot extend unknown type `TwigFilesystemLoader`'
+count = 1
+
+[[issues]]
+file = "Command/AmpConsumeMessagesCommand.php"
+code = "non-existent-attribute-class"
+message = 'Attribute class `Symfony\Component\Console\Attribute\AsCommand` not found or could not be autoloaded.'
+count = 1
+
+[[issues]]
+file = "Command/AmpConsumeMessagesCommand.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Command\AmpConsumeMessagesCommand` cannot extend unknown type `ConsumeMessagesCommand`'
+count = 1
+
+[[issues]]
+file = "Command/AmpConsumeMessagesCommand.php"
+code = "unused-method"
+message = "Method `execute()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpRestartCommand.php"
+code = "non-existent-attribute-class"
+message = 'Attribute class `Symfony\Component\Console\Attribute\AsCommand` not found or could not be autoloaded.'
+count = 1
+
+[[issues]]
+file = "Command/AmphpRestartCommand.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Command\AmphpRestartCommand` cannot extend unknown type `Command`'
+count = 1
+
+[[issues]]
+file = "Command/AmphpRestartCommand.php"
+code = "unused-method"
+message = "Method `configure()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpRestartCommand.php"
+code = "unused-method"
+message = "Method `execute()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "non-existent-attribute-class"
+message = 'Attribute class `Symfony\Component\Console\Attribute\AsCommand` not found or could not be autoloaded.'
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Command\AmphpStartCommand` cannot extend unknown type `Command`'
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "unused-method"
+message = "Method `configure()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "unused-method"
+message = "Method `execute()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "unused-method"
+message = "Method `resolvehost()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "unused-method"
+message = "Method `resolvemaxrequests()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "unused-method"
+message = "Method `resolveport()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "unused-method"
+message = "Method `resolveshutdowntimeout()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "unused-method"
+message = "Method `resolveworkers()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "unused-method"
+message = "Method `warmupcache()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStopCommand.php"
+code = "non-existent-attribute-class"
+message = 'Attribute class `Symfony\Component\Console\Attribute\AsCommand` not found or could not be autoloaded.'
+count = 1
+
+[[issues]]
+file = "Command/AmphpStopCommand.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Command\AmphpStopCommand` cannot extend unknown type `Command`'
+count = 1
+
+[[issues]]
+file = "Command/AmphpStopCommand.php"
+code = "unused-method"
+message = "Method `configure()` is never used."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStopCommand.php"
+code = "unused-method"
+message = "Method `execute()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/AmphpExtension.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\AmphpExtension` cannot extend unknown type `Extension`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/BootstrapIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\BootstrapIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/CacheIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\CacheIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/CacheIntegrationPass.php"
+code = "unused-method"
+message = "Method `isabstractcreateredisconnection()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/CacheIntegrationPass.php"
+code = "unused-method"
+message = "Method `patchredisconnectionservices()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/CacheIntegrationPass.php"
+code = "unused-method"
+message = "Method `registerasyncredisadapter()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/CacheIntegrationPass.php"
+code = "unused-method"
+message = "Method `replacefilesystemadapter()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/CacheIntegrationPass.php"
+code = "unused-method"
+message = "Method `replacesystemadapter()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/DoctrineIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\DoctrineIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/FilesystemIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\FilesystemIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/LogIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\LogIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/MailerIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\MailerIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/MailerIntegrationPass.php"
+code = "unused-method"
+message = "Method `configurehttpclient()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/MailerIntegrationPass.php"
+code = "unused-method"
+message = "Method `replacesmtpfactory()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/MessengerIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\MessengerIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/MessengerIntegrationPass.php"
+code = "unused-method"
+message = "Method `registerampredistransport()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/MessengerIntegrationPass.php"
+code = "unused-method"
+message = "Method `registerdoctrinetransport()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/MessengerIntegrationPass.php"
+code = "unused-method"
+message = "Method `replaceconsumecommand()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/ProfilerIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\ProfilerIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/SessionIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\SessionIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/SessionIntegrationPass.php"
+code = "unused-method"
+message = "Method `replacenativefilehandler()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/TwigIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\TwigIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/VarDumperIntegrationPass.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Compiler\VarDumperIntegrationPass` cannot implement unknown type `CompilerPassInterface`'
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/VarDumperIntegrationPass.php"
+code = "unused-method"
+message = "Method `getdumpserverhost()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/VarDumperIntegrationPass.php"
+code = "unused-method"
+message = "Method `registerhandler()` is never used."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Configuration.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\DependencyInjection\Configuration` cannot implement unknown type `ConfigurationInterface`'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "avoid-catching-error"
+message = "Avoid catching 'Error' class instances."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "impossible-assignment"
+message = "Invalid assignment: the right-hand side has type `never` and cannot produce a value."
+count = 2
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Monolog\LogRecord)`).'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Symfony\Component\HttpKernel\KernelInterface)`).'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "invalid-property-access"
+message = 'Attempting to access a property on a non-object type (`unknown-ref(Monolog\LogRecord)`).'
+count = 2
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "invalid-type-cast"
+message = "Non numeric string of type `string` implicitly cast to `float`."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #2 of `App\AmphpBundle\Runtime\Bridge\SymfonyRequestHandler::__construct`: expected `unknown-ref(Psr\Log\LoggerInterface)`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "mixed-array-access"
+message = "Unsafe array access on type `mixed`."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 3
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "mixed-return-statement"
+message = "Could not infer a precise return type for function `17164911732322903587:5011`. Saw type `mixed`."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "no-value"
+message = "Argument #1 passed to method `class@anonymous:17164911732322903587-7994:8583::__construct` has type `never`, meaning it cannot produce a value."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class"
+message = 'Class `Amp\Http\Server\DefaultErrorHandler` not found.'
+count = 3
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class"
+message = 'Class `Amp\Http\Server\Driver\SocketClientFactory` not found.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class"
+message = 'Class `Amp\Http\Server\SocketHttpServer` not found.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class"
+message = 'Class `Amp\Http\Server\StaticContent\DocumentRoot` not found.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class"
+message = 'Class `Symfony\Component\Dotenv\Dotenv` not found.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Monolog\LogRecord`.'
+count = 2
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\HttpKernel\KernelInterface`.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class-like"
+message = "Class `class@anonymous:17164911732322903587-7994:8583` cannot implement unknown type `RequestHandler`"
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class-like"
+message = 'Class, Interface, or Trait `Monolog\Logger` does not exist.'
+count = 3
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-class-like"
+message = 'Class, interface, enum, or trait `Symfony\Component\Dotenv\Dotenv` not found.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-function"
+message = 'Function `Amp\trapSignal` could not be found.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-method"
+message = 'Method `awaitTermination` does not exist on type `Amp\Cluster\Cluster`.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-method"
+message = 'Method `getServerSocketFactory` does not exist on type `Amp\Cluster\Cluster`.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-method"
+message = 'Method `isWorker` does not exist on type `Amp\Cluster\Cluster`.'
+count = 3
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-method"
+message = 'Method `pushprocessor` does not exist on type `Monolog\Logger`.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "non-existent-method"
+message = 'Method `shutdown` does not exist on type `Amp\Cluster\Cluster`.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "null-argument"
+message = "Argument #2 of function `array_key_exists` is `null`, but parameter type `array<array-key, mixed>` does not accept it."
+count = 2
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "possibly-false-argument"
+message = "Argument #2 of function `explode` is possibly `false`, but parameter type `string` does not accept it."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "possibly-invalid-argument"
+message = 'Possible argument type mismatch for argument #1 of `App\AmphpBundle\Runtime\Bridge\SymfonyRequestHandler::__construct`: expected `unknown-ref(Symfony\Component\HttpKernel\HttpKernelInterface)`, but possibly received `unknown-ref(Symfony\Component\HttpKernel\KernelInterface)`.'
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "redundant-null-coalesce"
+message = "Redundant null coalesce: left-hand side can never be `null` or undefined."
+count = 14
+
+[[issues]]
+file = "Resources/config/services.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator)`).'
+count = 1
+
+[[issues]]
+file = "Resources/config/services.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 1
+
+[[issues]]
+file = "Resources/config/services.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 13
+
+[[issues]]
+file = "Resources/config/services.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/GcCollectorHook.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Psr\Container\ContainerInterface`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/GcCollectorHook.php"
+code = "non-existent-method"
+message = 'Method `repeat` does not exist on type `Revolt\EventLoop`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Psr\Container\ContainerInterface)`).'
+count = 4
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Psr\Log\LoggerInterface)`).'
+count = 4
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Symfony\Component\HttpKernel\KernelInterface)`).'
+count = 2
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Runtime\Bootstrap\KernelBootstrapper::invokeHook`: expected `unknown-ref(Psr\Container\ContainerInterface)`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Runtime\Bootstrap\KernelBootstrapper::resolveHookIds`: expected `unknown-ref(Psr\Container\ContainerInterface)`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #3 of `App\AmphpBundle\Runtime\Bootstrap\KernelBootstrapper::invokeHook`: expected `unknown-ref(Psr\Log\LoggerInterface)`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 3
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 2
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "mixed-return-statement"
+message = 'Could not infer a precise return type for function `App\AmphpBundle\Runtime\Bootstrap\KernelBootstrapper::resolveHookIds`. Saw type `mixed`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "non-existent-class"
+message = 'Class `Psr\Log\NullLogger` not found.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Psr\Container\ContainerInterface`.'
+count = 2
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Psr\Log\LoggerInterface`.'
+count = 3
+
+[[issues]]
+file = "Runtime/Bootstrap/KernelBootstrapper.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\HttpKernel\KernelInterface`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/TranslatorWarmupHook.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Psr\Container\ContainerInterface)`).'
+count = 8
+
+[[issues]]
+file = "Runtime/Bootstrap/TranslatorWarmupHook.php"
+code = "less-specific-nested-return-statement"
+message = '''Returned type `list{mixed}` is less specific than the declared return type `array<array-key, string>` for function `App\AmphpBundle\Runtime\Bootstrap\TranslatorWarmupHook::getConfiguredLocales` due to nested 'mixed'.'''
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/TranslatorWarmupHook.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 2
+
+[[issues]]
+file = "Runtime/Bootstrap/TranslatorWarmupHook.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 1
+
+[[issues]]
+file = "Runtime/Bootstrap/TranslatorWarmupHook.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Psr\Container\ContainerInterface`.'
+count = 2
+
+[[issues]]
+file = "Runtime/Bootstrap/TranslatorWarmupHook.php"
+code = "non-existent-class-like"
+message = 'Class, Interface, or Trait `Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerInterface` does not exist.'
+count = 3
+
+[[issues]]
+file = "Runtime/Bootstrap/TranslatorWarmupHook.php"
+code = "non-existent-method"
+message = 'Method `warmup` does not exist on type `Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerInterface`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "impossible-assignment"
+message = "Invalid assignment: the right-hand side has type `never` and cannot produce a value."
+count = 2
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "invalid-iterator"
+message = "The expression provided to `foreach` is not iterable. It resolved to type `mixed`, which is not iterable."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Amp\Http\Server\FormParser\BufferedFile)`).'
+count = 3
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Amp\Http\Server\Request)`).'
+count = 10
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "invalid-property-access"
+message = "Attempting to access a property on a non-object type (`never`)."
+count = 3
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "method-access-on-null"
+message = "Attempting to call a method on `null`."
+count = 3
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Bridge\Symfony\HttpFoundation\File\AsyncUploadedFile::__construct`: expected `string`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Runtime\Bridge\AmpToSymfonyRequestConverter::buildRequestParams`: expected `array<non-empty-string, list<string>>`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #1 of `App\AmphpBundle\Runtime\Bridge\AmpToSymfonyRequestConverter::buildSymfonyFiles`: expected `array<string, list<unknown-ref(Amp\Http\Server\FormParser\BufferedFile)>>`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "mixed-argument"
+message = "Invalid argument type for argument #1 of `strlen`: expected `string`, but found `mixed`."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "mixed-argument"
+message = "Invalid argument type for argument #1 of `strtolower`: expected `string`, but found `mixed`."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #2 of `App\AmphpBundle\Bridge\Symfony\HttpFoundation\File\AsyncUploadedFile::__construct`: expected `string`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "mixed-argument"
+message = 'Invalid argument type for argument #3 of `App\AmphpBundle\Bridge\Symfony\HttpFoundation\File\AsyncUploadedFile::__construct`: expected `string`, but found `mixed`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 14
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 13
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "never-return"
+message = "Cannot return value with type 'never' from this function."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "non-existent-class"
+message = 'Class `Amp\Http\Server\FormParser\FormParser` not found.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "non-existent-class"
+message = 'Class `Symfony\Component\HttpFoundation\Request` not found.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Amp\Http\Server\FormParser\BufferedFile`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Amp\Http\Server\Request`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\HttpFoundation\Request`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "non-existent-function"
+message = 'Could not find definition for function `Amp\Http\Server\FormParser\parseContentBoundary` (also tried as `parseContentBoundary` in a broader scope).'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "unknown-iterator-type"
+message = "Cannot determine the type of the expression provided to `foreach`."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/GeneratorResponseBody.php"
+code = "missing-template-parameter"
+message = "Too few template arguments for `IteratorAggregate`: expected at least 2, but found 0."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/GeneratorResponseBody.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Runtime\Bridge\GeneratorResponseBody` cannot implement unknown type `ReadableStream`'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/GeneratorResponseBody.php"
+code = "unused-property"
+message = "Property `$closed` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/GeneratorResponseBody.php"
+code = "unused-property"
+message = "Property `$factory` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/GeneratorResponseBody.php"
+code = "unused-property"
+message = "Property `$generator` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/GeneratorResponseBody.php"
+code = "unused-property"
+message = "Property `$started` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "non-existent-class-like"
+message = 'Class `App\AmphpBundle\Runtime\Bridge\SymfonyRequestHandler` cannot implement unknown type `RequestHandler`'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "unused-method"
+message = "Method `mayberequestshutdown()` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "unused-property"
+message = "Property `$drainRequested` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "unused-property"
+message = "Property `$kernel` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "unused-property"
+message = "Property `$logger` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "unused-property"
+message = "Property `$maxRequests` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "unused-property"
+message = "Property `$onShutdownRequested` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "unused-property"
+message = "Property `$requestCount` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "unused-property"
+message = "Property `$shutdownTimeout` is never used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "invalid-iterator"
+message = "The expression provided to `foreach` is not iterable. It resolved to type `mixed`, which is not iterable."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "invalid-method-access"
+message = 'Attempting to access a method on a non-object type (`unknown-ref(Symfony\Component\HttpFoundation\Response)`).'
+count = 2
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "invalid-property-access"
+message = 'Attempting to access a property on a non-object type (`unknown-ref(Symfony\Component\HttpFoundation\Response)`).'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "method-access-on-null"
+message = "Attempting to call a method on `null`."
+count = 2
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "mixed-assignment"
+message = "Assigning `mixed` type to a variable may lead to unexpected behavior."
+count = 4
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "never-return"
+message = "Cannot return value with type 'never' from this function."
+count = 2
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "no-value"
+message = 'Argument #1 passed to method `App\AmphpBundle\Runtime\Bridge\SymfonyToAmpResponseConverter::convertAmpStreamed` has type `never`, meaning it cannot produce a value.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "non-existent-class"
+message = 'Class `Amp\Http\Server\Response` not found.'
+count = 2
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Amp\Http\Server\Response`.'
+count = 2
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "non-existent-class-like"
+message = 'Cannot find class, interface, enum, or type alias `Symfony\Component\HttpFoundation\Response`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "non-existent-method"
+message = 'Method `getstatuscode` does not exist on type `App\AmphpBundle\Bridge\Symfony\HttpFoundation\StreamedResponse`.'
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyToAmpResponseConverter.php"
+code = "unknown-iterator-type"
+message = "Cannot determine the type of the expression provided to `foreach`."
+count = 2

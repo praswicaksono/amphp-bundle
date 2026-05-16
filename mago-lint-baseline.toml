@@ -1,0 +1,727 @@
+variant = "loose"
+
+[[issues]]
+file = "AmphpBundle.php"
+code = "no-isset"
+message = "Use of the `isset` construct."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "no-boolean-flag-parameter"
+message = "Avoid boolean flag parameters."
+count = 2
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncConnection.php"
+code = "too-many-methods"
+message = "Class has too many methods."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/AsyncMysqlDriver.php"
+code = "prefer-first-class-callable"
+message = "Use first-class callable syntax `...` instead of a closure."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Result.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Result.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Result.php"
+code = "too-many-methods"
+message = "Class has too many methods."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/Dbal/Driver/Statement.php"
+code = "assert-description"
+message = "Missing description in assert function."
+count = 1
+
+[[issues]]
+file = "Bridge/Doctrine/ORM/EntityManagerResetListener.php"
+code = "no-isset"
+message = "Use of the `isset` construct."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "kan-defect"
+message = "Class has a high kan defect score."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "literal-named-argument"
+message = 'Literal argument `"\n"` should be passed as a named argument for clarity.'
+count = 5
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "literal-named-argument"
+message = "Literal argument `'-'` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "literal-named-argument"
+message = "Literal argument `0` should be passed as a named argument for clarity."
+count = 4
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "literal-named-argument"
+message = "Literal argument `0o777` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "literal-named-argument"
+message = "Literal argument `20` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "literal-named-argument"
+message = "Literal argument `2` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "literal-named-argument"
+message = "Literal argument `true` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "loop-does-not-iterate"
+message = "Loop is unconditionally terminated and will not iterate."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "no-isset"
+message = "Use of the `isset` construct."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncFilesystemAdapter.php"
+code = "no-shorthand-ternary"
+message = "Use of the shorthand ternary operator."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "kan-defect"
+message = "Class has a high kan defect score."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "literal-named-argument"
+message = "Literal argument `'?'` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Cache/AsyncRedisAdapter.php"
+code = "no-isset"
+message = "Use of the `isset` construct."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "kan-defect"
+message = "Class has a high kan defect score."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "literal-named-argument"
+message = "Literal argument `'/'` should be passed as a named argument for clarity."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "literal-named-argument"
+message = '''Literal argument `'/\\'` should be passed as a named argument for clarity.'''
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "literal-named-argument"
+message = '''Literal argument `'\\'` should be passed as a named argument for clarity.'''
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "literal-named-argument"
+message = "Literal argument `'file://'` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "literal-named-argument"
+message = "Literal argument `false` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "literal-named-argument"
+message = "Literal argument `null` should be passed as a named argument for clarity."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "no-boolean-flag-parameter"
+message = "Avoid boolean flag parameters."
+count = 9
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "no-else-clause"
+message = "Avoid `elseif` clauses."
+count = 6
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 4
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "no-sprintf-concat"
+message = "String concatenation with `sprintf` can be simplified."
+count = 16
+
+[[issues]]
+file = "Bridge/Symfony/Filesystem/Filesystem.php"
+code = "too-many-methods"
+message = "Class has too many methods."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/HttpFoundation/File/AsyncUploadedFile.php"
+code = "literal-named-argument"
+message = '''Literal argument `'/\\'` should be passed as a named argument for clarity.'''
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/HttpFoundation/File/AsyncUploadedFile.php"
+code = "literal-named-argument"
+message = "Literal argument `0o777` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Log/DebugLogger.php"
+code = "no-isset"
+message = "Use of the `isset` construct."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "no-boolean-flag-parameter"
+message = "Avoid boolean flag parameters."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "no-isset"
+message = "Use of the `isset` construct."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "no-sprintf-concat"
+message = "String concatenation with `sprintf` can be simplified."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AmpSocketStream.php"
+code = "too-many-methods"
+message = "Class has too many methods."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AsyncEsmtpTransportFactory.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AsyncEsmtpTransportFactory.php"
+code = "halstead"
+message = "Method has a high halstead effort"
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AsyncEsmtpTransportFactory.php"
+code = "literal-named-argument"
+message = "Literal argument `true` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AsyncEsmtpTransportFactory.php"
+code = "no-assign-in-condition"
+message = "Avoid assignments in conditions."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Mailer/AsyncEsmtpTransportFactory.php"
+code = "no-nested-ternary"
+message = "Nested ternary expressions are confusing due to PHP's operator associativity rules."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "halstead"
+message = "Method has a high halstead difficulty"
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "halstead"
+message = "Method has a high halstead effort"
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "kan-defect"
+message = "Class has a high kan defect score."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "literal-named-argument"
+message = "Literal argument `'/'` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "literal-named-argument"
+message = "Literal argument `'0'` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "literal-named-argument"
+message = "Literal argument `'redis$1://'` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "literal-named-argument"
+message = "Literal argument `0` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "literal-named-argument"
+message = "Literal argument `11` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "literal-named-argument"
+message = "Literal argument `2` should be passed as a named argument for clarity."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "literal-named-argument"
+message = "Literal argument `3` should be passed as a named argument for clarity."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "literal-named-argument"
+message = "Literal argument `true` should be passed as a named argument for clarity."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "loop-does-not-iterate"
+message = "Loop is unconditionally terminated and will not iterate."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "no-empty"
+message = "Use of the `empty` construct."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "no-isset"
+message = "Use of the `isset` construct."
+count = 7
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "too-many-methods"
+message = "Class has too many methods."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisConnection.php"
+code = "too-many-properties"
+message = "Class has too many properties."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "literal-named-argument"
+message = "Literal argument `true` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Messenger/Redis/AmpRedisTransport.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "literal-named-argument"
+message = """Literal argument `'"'` should be passed as a named argument for clarity."""
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "literal-named-argument"
+message = "Literal argument `','` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "literal-named-argument"
+message = '''Literal argument `'\\'` should be passed as a named argument for clarity.'''
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "literal-named-argument"
+message = "Literal argument `10` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "literal-named-argument"
+message = "Literal argument `3` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 3
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "no-error-control-operator"
+message = "Unsafe use of error control operator `@`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "no-insecure-comparison"
+message = "Insecure comparison of sensitive data."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Profiler/AsyncProfilerStorage.php"
+code = "no-shorthand-ternary"
+message = "Use of the shorthand ternary operator."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "literal-named-argument"
+message = "Literal argument `'r'` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "literal-named-argument"
+message = "Literal argument `'w'` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "literal-named-argument"
+message = "Literal argument `0o777` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 2
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpFileSessionHandler.php"
+code = "no-redundant-use"
+message = "Unused import: `File`."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Bridge/Symfony/Session/AmpRedisSessionHandler.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 2
+
+[[issues]]
+file = "Command/AmphpRestartCommand.php"
+code = "halstead"
+message = "Method has a high halstead effort"
+count = 1
+
+[[issues]]
+file = "Command/AmphpRestartCommand.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 2
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "halstead"
+message = "Method has a high halstead volume and effort"
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "kan-defect"
+message = "Class has a high kan defect score."
+count = 1
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 2
+
+[[issues]]
+file = "Command/AmphpStartCommand.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/CacheIntegrationPass.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/MailerIntegrationPass.php"
+code = "no-isset"
+message = "Use of the `isset` construct."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/MessengerIntegrationPass.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 2
+
+[[issues]]
+file = "DependencyInjection/Compiler/SessionIntegrationPass.php"
+code = "no-shorthand-ternary"
+message = "Use of the shorthand ternary operator."
+count = 1
+
+[[issues]]
+file = "DependencyInjection/Compiler/VarDumperIntegrationPass.php"
+code = "tagged-todo"
+message = "TODO should be tagged with (@username) or (#issue)."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "literal-named-argument"
+message = "Literal argument `1` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 2
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "no-error-control-operator"
+message = "Unsafe use of error control operator `@`."
+count = 1
+
+[[issues]]
+file = "Resources/cluster/cluster-worker.php"
+code = "no-ini-set"
+message = "ini_set should not be used."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "cyclomatic-complexity"
+message = "Class has high complexity."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "halstead"
+message = "Method has a high halstead effort"
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "literal-named-argument"
+message = "Literal argument `true` should be passed as a named argument for clarity."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "no-else-clause"
+message = "Avoid `else` clauses."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/AmpToSymfonyRequestConverter.php"
+code = "no-isset"
+message = "Use of the `isset` construct."
+count = 2
+
+[[issues]]
+file = "Runtime/Bridge/GeneratorResponseBody.php"
+code = "no-empty-catch-clause"
+message = "Do not use empty `catch` blocks."
+count = 1
+
+[[issues]]
+file = "Runtime/Bridge/SymfonyRequestHandler.php"
+code = "halstead"
+message = "Method has a high halstead difficulty"
+count = 1

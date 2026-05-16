@@ -1,0 +1,17 @@
+# Mago configuration for AmphpBundle
+#
+# See: https://mago.carthage.software/
+
+php-version = "8.4"
+
+[source]
+paths = ["."]
+excludes = ["vendor", "bin"]
+
+[formatter]
+
+[linter]
+baseline = "mago-lint-baseline.json"
+
+[analyzer]
+baseline = "mago-baseline.json"

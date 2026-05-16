@@ -1,0 +1,49 @@
+{
+    "name": "prsw/amphp-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle providing an AMPHP HTTP server runtime",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.4",
+        "ext-pcntl": "*",
+        "ext-posix": "*",
+        "symfony/dotenv": "^8.0",
+        "symfony/http-kernel": "^8.0",
+        "symfony/http-foundation": "^8.0",
+        "amphp/http-server": "^3.0",
+        "amphp/http-server-form-parser": "^2.0",
+        "amphp/http-server-router": "^2.0",
+        "amphp/websocket-server": "^4.0",
+        "amphp/socket": "^2.0",
+        "amphp/cluster": "^2.0",
+        "amphp/file": "^3.2",
+        "psr/log": "^3.0",
+        "monolog/monolog": "^3.0"
+    },
+    "require-dev": {
+        "doctrine/orm": "^3.0",
+        "phpunit/phpunit": "^11.0",
+        "symfony/framework-bundle": "^8.0",
+        "symfony/yaml": "^8.0",
+        "amphp/http-client": "^5.0",
+        "carthage-software/mago": "^1.27.1"
+    },
+    "bin": [
+        "Resources/cluster/cluster-worker.php"
+    ],
+    "suggest": {
+        "amphp/mysql": "Enables async MySQL database driver for Doctrine DBAL",
+        "amphp/postgres": "Enables async PostgreSQL database driver for Doctrine DBAL",
+        "amphp/redis": "Enable async Redis driver for cache and session handler"
+    },
+    "autoload": {
+        "psr-4": {
+            "PRSW\\AmphpBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PRSW\\AmphpBundle\\Tests\\": "tests/"
+        }
+    }
+}
