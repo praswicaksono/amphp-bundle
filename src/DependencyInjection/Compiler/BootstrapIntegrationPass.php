@@ -26,10 +26,8 @@ final class BootstrapIntegrationPass implements CompilerPassInterface
 
         // Register the translator warmup hook if symfony/translation exists
         if (\class_exists(\Symfony\Component\Translation\Translator::class)) {
-            $container->register(TranslatorWarmupHook::class)->setAutowired(true)->setAutoconfigured(true);
-
-            // Autoconfigure adds the 'amphp.after_boot_hook' tag via the
-            // registerForAutoconfiguration call above
+            $container->register(TranslatorWarmupHook::class, TranslatorWarmupHook::class)
+                ->addTag('amphp.after_boot_hook');
         }
 
         // Store the list of hook service IDs as a container parameter.
